@@ -15,7 +15,7 @@ const TopNavbar = () => {
           height={40}
         />
         <span className="self-center whitespace-nowrap font-semibold text-gray-100">
-          Interviewers
+          Interviewers APP
         </span>
       </Navbar.Brand>
       <Navbar.Toggle />
@@ -25,12 +25,6 @@ const TopNavbar = () => {
         </Navbar.Link>
         <Navbar.Link as={Link} to="/about">
           About
-        </Navbar.Link>
-        <Navbar.Link as={Link} to="/">
-          Services
-        </Navbar.Link>
-        <Navbar.Link as={Link} to="/">
-          Contact
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>

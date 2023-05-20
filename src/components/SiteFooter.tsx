@@ -1,6 +1,5 @@
 import React from "react";
 import { Footer } from "flowbite-react";
-import { Link } from "gatsby";
 
 const SiteFooter = () => {
   return (
@@ -11,14 +10,14 @@ const SiteFooter = () => {
         year={new Date().getFullYear()}
       />
       <Footer.LinkGroup>
-        <Footer.Link href="/">
+        <Footer.Link href="/about">
           About
         </Footer.Link>
-        <Footer.Link href="/">
+        <Footer.Link href="/privacy_policy">
           Privacy Policy
         </Footer.Link>
-        <Footer.Link href="/">
-          Terms Of Use
+        <Footer.Link href="/tos">
+          Terms Of Service
         </Footer.Link>
       </Footer.LinkGroup>
     </Footer>

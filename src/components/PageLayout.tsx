@@ -9,7 +9,7 @@ const PageLayout = ({ children }: PropsWithChildren) => (
   <Flowbite theme={{ theme }}>
     <main>
       <TopNavbar />
-      <div className="container min-h-[82vh]">{children}</div>
+      <div className="min-h-[82vh]">{children}</div>
       <SiteFooter />
     </main>
   </Flowbite>

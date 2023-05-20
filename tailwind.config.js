@@ -7,7 +7,11 @@ module.exports = {
     "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      listStyleType: {
+        "lower-alpha": "lower-alpha",
+      },
+    },
   },
   plugins: [require("flowbite/plugin")],
 };
